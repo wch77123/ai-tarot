@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start *)",
+      "Bash(taskkill /F /IM msedge.exe)",
+      "Bash(node *)",
+      "Bash(npm install *)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //PID 18400 //F)",
+      "Bash(npm start *)",
+      "Bash(taskkill //PID 20636 //F)",
+      "Bash(taskkill //PID 25576 //F)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d '{\"messages\":[{\"role\":\"user\",\"content\":\"test\"}]}')"
+    ]
+  }
+}
